@@ -1,0 +1,47 @@
+//generic styling-->for all
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(169, 180, 180);
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS";
+}
+
+//Main app styling(App.jsx)
+.app {
+  background-color: #fff;
+  box-shadow: rgba($color: #68636375, $alpha: 1);
+  border-radius: 10px;
+  padding: 10px;
+  width: 800px;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+//ListHeader styling
+.list-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #0000004d;
+
+  .btn-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      margin: 0;
+      font-size: 20px;
+      padding: 5px 10px;
+      border-radius: 12px;
+      border: 1px solid inherit;
+      margin-right: 10px;
+      background-color: rgb(84, 180, 175);
+    }
+  }
+}

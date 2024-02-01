@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(169, 180, 180);
+  display: flex;
+  justify-content: center;
+  font-family: "Trebuchet MS";
+}
+
+.app {
+  background-color: #fff;
+  box-shadow: #686363;
+  border-radius: 10px;
+  padding: 10px;
+  width: 800px;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.list-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3019607843);
+}
+.list-header .btn-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-header .btn-container button {
+  margin: 0;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 12px;
+  border: 1px solid inherit;
+  margin-right: 10px;
+  background-color: rgb(84, 180, 175);
+}/*# sourceMappingURL=App.css.map */
